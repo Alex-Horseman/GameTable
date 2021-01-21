@@ -1,0 +1,6 @@
+DECK B
+50 75 30 sheep.jpg back.png
+DECK B
+50 75 30 wood.jpg back.png
+DECK F
+50 75 1 wood.jpg back.png
