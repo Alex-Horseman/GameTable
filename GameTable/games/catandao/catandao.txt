@@ -1,6 +1,7 @@
-DECK B
+TABLE 4 45 750 0 150 0
+DECK B 0 300
 50 75 30 sheep.jpg back.png
-DECK B
+DECK B 70 300
 50 75 30 wood.jpg back.png
-DECK F
+DECK F 140 300
 50 75 1 wood.jpg back.png

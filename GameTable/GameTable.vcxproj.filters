@@ -42,9 +42,18 @@
     <ClCompile Include="Object.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="QPlayer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <QtMoc Include="GameTable.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="QGTable.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="QPlayer.h">
       <Filter>Header Files</Filter>
     </QtMoc>
   </ItemGroup>
@@ -54,9 +63,6 @@
     </QtRcc>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="QGTable.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="Object.h">
       <Filter>Header Files</Filter>
     </ClInclude>

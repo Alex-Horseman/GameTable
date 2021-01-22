@@ -5,9 +5,13 @@
 int main(int argc, char *argv[])
 {
 	QApplication a(argc, argv);
-	GameTable w;
+	QVector<QPlayer*> players;
+	players.append(new QPlayer());
+	players.append(new QPlayer());
+	players.append(new QPlayer());
+	GameTable w(players,nullptr);
 	
 	w.init_game(QDir(".\\games\\catandao"));
-	w.show();
+	w.showMaximized();
 	return a.exec();
 }
